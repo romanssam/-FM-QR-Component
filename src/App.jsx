@@ -1,11 +1,11 @@
-import { useState } from 'react'
-import './App.css'
+import './index.css'
+import Qr from "./assets/components/Qr.jsx";
 
 function App() {
 
   return (
     <div className="App">
-      <span>scoped</span>
+      <Qr/>
     </div>
   )
 }
